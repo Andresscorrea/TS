@@ -4,20 +4,20 @@ import java.sql.Date;
 
 public class Acidente {
 	
-	int id;
-	Date DataAcontecimento;
-	String uf;
-	String BR;
-	String Latitude;
-	String Longitude;
-	String Horario;
-	String CondicaoClimatica;
-	int IdTipoAcidente;
+	private Integer id;
+	private Date DataAcontecimento;
+	private String uf;
+	private String BR;
+	private String Latitude;
+	private String Longitude;
+	private String Horario;
+	private String  CondicaoClimatica;
+	private Integer IdTipoAcidente;
 	
-	public int getId() {
+	public Integer getId() {
 		return id;
 	}
-	public void setId(int id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 	public Date getDataAcontecimento() {
@@ -62,12 +62,10 @@ public class Acidente {
 	public void setCondicaoClimatica(String condicaoClimatica) {
 		CondicaoClimatica = condicaoClimatica;
 	}
-	public int getIdTipoAcidente() {
+	public Integer getIdTipoAcidente() {
 		return IdTipoAcidente;
 	}
-	public void setIdTipoAcidente(int idTipoAcidente) {
+	public void setIdTipoAcidente(Integer idTipoAcidente) {
 		IdTipoAcidente = idTipoAcidente;
 	}
-	
-
 }
