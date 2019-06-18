@@ -9,5 +9,5 @@ public class TransitSurApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TransitSurApplication.class, args);
 	}
-//sempre rodar o boot para descobrir se tem erros no projeto
+//sempre rodar o boot para inicializar o projeto e descobrir se tem bugs no projeto
 }
